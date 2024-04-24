@@ -1,0 +1,392 @@
+<html lang="en" dir="ltr"><head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Et">
+	<meta name="robots" content="index, follow">
+   
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reviews</title>
+    <!-- Favicon icon -->
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/brand/01.png">
+	
+		
+		 <link href="assets/css/jqvmap.min.css" rel="stylesheet" type="text/css">	
+		
+		 <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">	
+			
+		 <link href="assets/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">		
+		
+		 <link href="assets/css/style.css" rel="stylesheet" type="text/css">		
+		 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		 <script src="assets/js/models/models.js"></script>
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.0.18/sweetalert2.min.css">
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.0.18/sweetalert2.min.js"></script>
+
+	
+<style type="text/css">
+.ai-icon{
+    display: none;
+  }
+@keyframes opaque {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Resize generated styles */
+
+@keyframes resizeanim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.resize-triggers {
+  animation: 1ms resizeanim;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.resize-triggers,
+.resize-triggers>div,
+.contract-trigger:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resize-triggers>div {
+  background: #eee;
+  overflow: auto;
+}
+
+.contract-trigger:before {
+  width: 200%;
+  height: 200%;
+}</style></head>
+<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="color_1" data-headerbg="color_1" data-sidebar-style="overlay" data-sibebarbg="color_1" data-sidebar-position="fixed" data-header-position="fixed" data-container="wide" direction="ltr" data-primary="color_1">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader" style="display: none;">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+	
+	<!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper" class="show">
+
+		<!--**********************************
+    Nav header start
+***********************************-->
+<div class="nav-header">
+    <a href="index.html" class="brand-logo">
+        <img class="logo-abbr" src="assets/brand/01.png" alt="/">
+        <img class="logo-compact" src="assets/brand/02.png" alt="/">
+        <img class="brand-title" src="assets/brand/02.png" alt="/">
+    </a>
+
+    <div class="nav-control">
+        <div class="hamburger">
+            <span class="line"></span><span class="line"></span><span class="line"></span>
+        </div>
+    </div>
+</div>
+<!--**********************************
+    Nav header end
+***********************************-->		<!--**********************************
+	Chat box start
+***********************************-->
+<div class="chatbox">
+	<div class="chatbox-close"></div>
+	<div class="custom-tab-1">
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="nav-item" role="presentation">
+				<a class="nav-link" data-bs-toggle="tab" href="#alerts" aria-selected="false" role="tab" tabindex="-1">Notes</a>
+			</li>
+			
+			<li class="nav-item" role="presentation">
+				<a class="nav-link" data-bs-toggle="tab" href="#notes" aria-selected="false" role="tab" tabindex="-1">Alerts</a>
+			</li>
+		
+		</ul>
+		<div class="tab-content">
+			
+			<div class="tab-pane fade" id="alerts" role="tabpanel">
+				<div class="card mb-sm-3 mb-md-0 contacts_card">
+					<div class="card-header chat-list-header text-center">
+						<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
+						<div>
+							<h6 class="mb-1">Notications</h6>
+							<p class="mb-0">Show All</p>
+						</div>
+						<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"></path></g></svg></a>
+					</div>
+					<div class="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body1">
+						<ul class="contacts">
+							<li class="name-first-letter">SEVER STATUS</li>
+							<li class="active">
+								<div class="d-flex bd-highlight">
+									<div class="img_cont primary">KK</div>
+									<div class="user_info">
+										<span>David Nester Birthday</span>
+										<p class="text-primary">Today</p>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="card-footer"></div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="notes" role="tabpanel">
+				<div class="card mb-sm-3 mb-md-0 note_card">
+					<div class="card-header chat-list-header text-center">
+						<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"></rect><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"></rect></g></svg></a>
+						<div>
+							<h6 class="mb-1">Notes</h6>
+							<p class="mb-0">Add New Nots</p>
+						</div>
+						<a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"></path></g></svg></a>
+					</div>
+					<div class="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body2">
+						<ul class="contacts">
+							<li class="active">
+								<div class="d-flex bd-highlight">
+									<div class="user_info">
+										<span>New order placed..</span>
+										<p>10 Aug 2020</p>
+									</div>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
+										<a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fas fa-trash"></i></a>
+									</div>
+								</div>
+							</li>
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--**********************************
+	Chat box End
+***********************************-->        <!--**********************************
+	Header start
+***********************************-->
+<div class="header">
+	<div class="header-content">
+		<nav class="navbar navbar-expand">
+			<div class="collapse navbar-collapse justify-content-between">
+				<div class="header-left">
+					<div class="dashboard_bar">
+						<div class="search_bar dropdown">
+							<div class="dropdown-menu p-0 m-0">
+								<form>
+									<div class="input-group search-area d-xl-inline-flex d-none">
+										<input class="form-control" type="text" placeholder="Search Here" aria-label="Search">
+										<button class="input-group-text">
+											<span class="search_icon p-3 c-pointer">
+												<svg class="ms-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M23.7871 22.7761L17.9548 16.9437C19.5193 15.145 20.4665 12.7982 20.4665 10.2333C20.4665 4.58714 15.8741 0 10.2333 0C4.58714 0 0 4.59246 0 10.2333C0 15.8741 4.59246 20.4665 10.2333 20.4665C12.7982 20.4665 15.145 19.5193 16.9437 17.9548L22.7761 23.7871C22.9144 23.9255 23.1007 24 23.2816 24C23.4625 24 23.6488 23.9308 23.7871 23.7871C24.0639 23.5104 24.0639 23.0528 23.7871 22.7761ZM1.43149 10.2333C1.43149 5.38004 5.38004 1.43681 10.2279 1.43681C15.0812 1.43681 19.0244 5.38537 19.0244 10.2333C19.0244 15.0812 15.0812 19.035 10.2279 19.035C5.38004 19.035 1.43149 15.0865 1.43149 10.2333Z" fill="#3B4CB8"></path>
+												</svg>
+											</span>
+										</button>
+									</div>	
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<ul class="navbar-nav header-right">
+					
+					<!-----
+					<li class="nav-item dropdown notification_dropdown">
+						<a class="nav-link" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false">
+							<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22.625 5.125H21.75V1.625C21.75 1.47262 21.7102 1.32289 21.6345 1.19062C21.5589 1.05835 21.45 0.948128 21.3186 0.870868C21.1873 0.793609 21.0381 0.751989 20.8857 0.750126C20.7333 0.748264 20.5831 0.786224 20.4499 0.86025L13 4.99909L5.55007 0.86025C5.41688 0.786224 5.26667 0.748264 5.11431 0.750126C4.96194 0.751989 4.8127 0.793609 4.68136 0.870868C4.55002 0.948128 4.44113 1.05835 4.36547 1.19062C4.28981 1.32289 4.25001 1.47262 4.25 1.625V5.125H3.375C2.67904 5.12576 2.01181 5.40257 1.51969 5.89469C1.02757 6.3868 0.750764 7.05404 0.75 7.75V10.375C0.750764 11.071 1.02757 11.7382 1.51969 12.2303C2.01181 12.7224 2.67904 12.9992 3.375 13H4.25V22.625C4.25076 23.321 4.52757 23.9882 5.01969 24.4803C5.51181 24.9724 6.17904 25.2492 6.875 25.25H19.125C19.821 25.2492 20.4882 24.9724 20.9803 24.4803C21.4724 23.9882 21.7492 23.321 21.75 22.625V13H22.625C23.321 12.9992 23.9882 12.7224 24.4803 12.2303C24.9724 11.7382 25.2492 11.071 25.25 10.375V7.75C25.2492 7.05404 24.9724 6.3868 24.4803 5.89469C23.9882 5.40257 23.321 5.12576 22.625 5.125ZM20 5.125H16.3769L20 3.1125V5.125ZM6 3.1125L9.62311 5.125H6V3.1125ZM6 22.625V13H12.125V23.5H6.875C6.64303 23.4997 6.42064 23.4074 6.25661 23.2434C6.09258 23.0793 6.0003 22.857 6 22.625ZM20 22.625C19.9997 22.857 19.9074 23.0793 19.7434 23.2434C19.5794 23.4074 19.357 23.4997 19.125 23.5H13.875V13H20V22.625ZM23.5 10.375C23.4997 10.607 23.4074 10.8294 23.2434 10.9934C23.0794 11.1574 22.857 11.2497 22.625 11.25H3.375C3.14303 11.2497 2.92064 11.1574 2.75661 10.9934C2.59258 10.8294 2.5003 10.607 2.5 10.375V7.75C2.5003 7.51803 2.59258 7.29564 2.75661 7.13161C2.92064 6.96758 3.14303 6.8753 3.375 6.875H22.625C22.857 6.8753 23.0794 6.96758 23.2434 7.13161C23.4074 7.29564 23.4997 7.51803 23.5 7.75V10.375Z" fill="#3B4CB8"></path>
+							</svg>
+							<div class="pulse-css"></div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-end">
+							<div id="DZ_W_TimeLine02" class="widget-timeline dz-scroll style-1 p-3 height370">
+							<ul class="timeline">
+								<li>
+									<div class="timeline-badge primary"></div>
+									<a class="timeline-panel text-muted" href="javascript:void(0);">
+										<span>10 minutes ago</span>
+										<h6 class="mb-0">Youtube, a video-sharing website, goes live <strong class="text-primary">$500</strong>.</h6>
+									</a>
+								</li>
+							
+							</ul>
+						</div>
+						</div>
+					</li>----->
+					<li class="nav-item dropdown header-profile" id="header-profile">
+						<a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="header-info">
+								<span class="text-black">Super Admin</span>
+								
+							</div>
+							<img  width="20" alt="" src="assets/images/customers/avatar.jpg">
+						</a>
+						<div class="dropdown-menu dropdown-menu-end">
+							<a href="#app_profile.html" class="dropdown-item ai-icon">
+								<svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+								<span class="ms-2">Profile </span>
+							</a>
+							
+							<a href="logout" class="dropdown-item ai-icon">
+								<svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+								<span class="ms-2">Logout </span>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!--**********************************
+	Header end 
+***********************************-->        <!--**********************************
+    Sidebar start
+***********************************-->
+<div class="deznav">
+    <div class="deznav-scroll mm-active">
+        <ul class="metismenu mm-show" id="menu">
+            <li class="mm-active">
+                <ul aria-expanded="false" class="mm-collapse mm-show">
+                    <li class="mm-active"><a href="index.html" class="mm-active">Dashboard</a></li>
+                   
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="orderlist.html">Order List</a></li>
+                    <li><a href="customerlist.html">Customer</a></li>
+                </ul>
+            </li>
+            
+            <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <i class="flaticon-381-layer-1"></i>
+                    <span class="nav-text">Vehicle</span>
+                    <span class="badge badge-sm badge-danger ms-3">New</span>
+                </a>
+                <ul aria-expanded="false" class="mm-collapse">
+                    <li><a href="add_property.html">Add Vehicle</a></li>
+                    <li><a href="all_property.html">Vehicle List</a></li>
+                    <li><a href="detail.html">Vehicle Details</a></li>
+                </ul>
+            </li>
+               
+                    
+        </ul>
+    
+    </div>
+</div>
+
+<script src="assets/js/models/reviews.js"></script>
+<div class="content-body">
+	<!-- row -->
+	<div class="container-fluid">
+		<div class="form-head page-titles d-flex  align-items-center">
+			<div class="me-auto  d-lg-block">
+				<h4 class=" mb-1">Reviews</h4>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Customer</a></li>
+					<li class="breadcrumb-item"><a href="javascript:void(0)">Reviews</a></li>
+				</ol>
+			</div>
+			<a href="javascript:void(0);" class="btn btn-primary rounded light">Refresh</a>
+		</div>
+		<div class="row">
+			<div class="col-xl-12">
+				<ul class="nav nav-pills review-tab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<a href="#navpills-1" class="nav-link" data-bs-toggle="tab" aria-expanded="false" aria-selected="false" role="tab" tabindex="-1">All Review</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a href="#navpills-2" class="nav-link active" data-bs-toggle="tab" aria-expanded="false" aria-selected="true" role="tab">Published</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a href="#navpills-3" class="nav-link" data-bs-toggle="tab" aria-expanded="true" aria-selected="false" role="tab" tabindex="-1">Deleted</a>
+					</li>
+				</ul>
+				<div class="tab-content pt-4 bg-white" id="reviewList">
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--**********************************
+	Content body end
+***********************************-->
+        <!--**********************************
+    Footer start
+***********************************-->
+<footer class="footer">
+    <div class="copyright">
+            
+    </div>
+</footer>
+<!--**********************************
+    Footer end
+***********************************-->        
+		
+	</div>
+			<script src="assets/js/global.min.js"></script>
+			<script src="assets/js/bootstrap-select.min.js"></script>
+		
+
+	        <script src="assets/js/chart.bundle.min.js"></script>
+            <script src="assets/js/owl.carousel.js"></script>
+            <script src="assets/js/apexchart.js"></script>
+			<script src="assets/js/custom.min.js"></script>
+			
+
+            <!---
+				
+				<script src="assets/js/dashboard-1.js"></script>
+			<script src="assets/js/custom.min.js"></script>
+			<script src="assets/js/deznav-init.js"></script>
+				--->
+		<script>
+	
+</script>
+
+
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M-1 282.348L-1 282.348C-1 282.348 51.81396484374999 282.348 51.81396484374999 282.348C51.81396484374999 282.348 103.62792968749999 282.348 103.62792968749999 282.348C103.62792968749999 282.348 155.44189453125 282.348 155.44189453125 282.348C155.44189453125 282.348 207.25585937499997 282.348 207.25585937499997 282.348C207.25585937499997 282.348 259.06982421875 282.348 259.06982421875 282.348C259.06982421875 282.348 310.8837890625 282.348 310.8837890625 282.348C310.8837890625 282.348 362.69775390624994 282.348 362.69775390624994 282.348C362.69775390624994 282.348 414.51171874999994 282.348 414.51171874999994 282.348C414.51171874999994 282.348 414.51171874999994 282.348 414.51171874999994 282.348 "></path></svg>
+<div class="jqvmap-label" style="display: none;"></div><div class="jqvmap-label" style="display: none;"></div><div class="jqvmap-label" style="display: none; left: 71.2656px; top: 2028.7px;">Canada</div>
+</body></html>
